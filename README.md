@@ -1,6 +1,5 @@
 <p align="left">
-  <img src="/assets/icon.png" alt="Colta Logo" width="60">
-  <span style="font-size: 2rem; font-weight: bold; vertical-align: middle;">Colta</span>
+  <img src="/assets/icon.png" alt="Colta Logo" width="100">
 </p>
 
 # Colta
@@ -15,8 +14,9 @@ processors. If you're using an Intel Mac, you can easily change the parameter by
 replacing `--arch=arm64` with `--arch=x86`. Either way, I'll leave both versions
 available in the releases.
 
-![Colta Demo](/assets/demo.gif)
-
+<p align="center">
+  <img src="/assets/demo.gif" alt="Colta Demo" width="600">
+</p>
 ## Features
 
 - **Easy YouTube Downloads**  
