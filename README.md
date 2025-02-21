@@ -47,22 +47,22 @@ available in the releases.
 
 ## Usage
 
-- **Run in Development**
+### **Run in Development**
 
-  ```bash
-  npm start
-  ```
+```bash
+npm start
+```
 
 This will launch the Electron app. Enter a YouTube URL, and choose to download
 as MP3 or MP4.
 
-- **Package for Distribution**
+### **Package for Distribution**
 
 To package the app for macOS (ARM64 or x64), run:
 
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
 
 The packaged .app will be created in the output folder. Zip the .app file to
 share it with your friends.
@@ -71,17 +71,15 @@ share it with your friends.
 
 ## Troubleshooting
 
-Troubleshooting
-
-- **App Flagged as “Damaged”:**
+### **App Flagged as “Damaged”:**
 
 On macOS, if the app is blocked, try running:
 
-    ```bash
-    sudo xattr -rd com.apple.quarantine /path/to/Colta.app
-    ```
+```bash
+sudo xattr -rd com.apple.quarantine /path/to/Colta.app
+```
 
-- **Binaries Not Found:**
+### **Binaries Not Found:**
 
 Ensure that yt-dlp and ffmpeg are correctly placed in the bin folder and marked
 as executable.
