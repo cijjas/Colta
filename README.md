@@ -11,7 +11,7 @@ expected.
 
 The build is configured to generate a version of the app for Macs with ARM
 processors. If you're using an Intel Mac, you can easily change the parameter by
-replacing `--arch=arm64` with `--arch=x86`. Either way, I'll leave both versions
+replacing `--arch=arm64` with `--arch=x64`. Either way, I'll leave both versions
 available in the releases.
 
 <p align="center">
