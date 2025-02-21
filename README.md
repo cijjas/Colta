@@ -1,3 +1,5 @@
+![Colta Demo](/assets/icon.png)
+
 # Colta
 
 **Colta** is a small app designed to simplify the process of converting YouTube
@@ -10,7 +12,7 @@ processors. If you're using an Intel Mac, you can easily change the parameter by
 replacing `--arch=arm64` with `--arch=x86`. Either way, I'll leave both versions
 available in the releases.
 
----
+![Colta Demo](/assets/demo.gif)
 
 ## Features
 
@@ -19,8 +21,6 @@ available in the releases.
 
 - **Modern Utility Design**  
   Looks cool and is easy to use.
-
----
 
 ## Installation
 
@@ -43,8 +43,6 @@ available in the releases.
    chmod +x bin/yt-dlp bin/ffmpeg
    ```
 
----
-
 ## Usage
 
 ### **Run in Development**
@@ -66,8 +64,6 @@ npm run build
 
 The packaged .app will be created in the output folder. Zip the .app file to
 share it with your friends.
-
---
 
 ## Troubleshooting
 
