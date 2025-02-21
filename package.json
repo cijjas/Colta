@@ -1,0 +1,19 @@
+{
+  "name": "colta",
+  "version": "1.0.0",
+  "description": "Una app especial para Justi.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Colta --platform=darwin --arch=arm64 --overwrite --icon=assets/app-icon.icns --extra-resource=bin"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-packager": "^17.1.2",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
