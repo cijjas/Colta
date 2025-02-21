@@ -1,4 +1,7 @@
-![Colta Demo](/assets/icon.png)
+<p align="left">
+  <img src="/assets/icon.png" alt="Colta Logo" width="60">
+  <span style="font-size: 2rem; font-weight: bold; vertical-align: middle;">Colta</span>
+</p>
 
 # Colta
 
